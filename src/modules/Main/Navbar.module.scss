@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #ababab;
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 550;
+  }
+
+  .search-bar {
+    width: 15%;
+    height: 20px;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 10px;
+    outline: none;
+  }
+
+  .menu-links {
+    display: flex;
+    gap: 20px;
+
+    li, a {
+      list-style-type: none;
+      text-decoration: none;
+      color: #b3b3b3;
+      transition: all 0.3s;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+
+  .icons-side {
+    display: flex;
+    gap: 15px;
+
+    a {
+      font-size: 25px;
+    }
+  }
+}
